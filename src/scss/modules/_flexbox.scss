@@ -24,5 +24,9 @@
 
 .flexbox-3 {
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexbox-box-3 {
+  width: 320px;
 }
