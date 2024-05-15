@@ -3,6 +3,12 @@
 // ==================================== */
 
 :root {
+  --blackblue: #1d2d44;
+  --greyblue: #748cab;
+  --black: #000;
+  --blue: #0d47a1;
+  --cyan: #42a5f5;
+  --red: #f44336;
 }
 
 /* ====================================
@@ -38,21 +44,21 @@ img {
 }
 
 h2 {
-  color: #1d2d44;
+  color: var(--blackblue);
   font-size: 36px;
   font-weight: 700;
   line-height: 45px;
 }
 
 h3 {
-  color: #748cab;
+  color: var(--greyblue);
   font-size: 24px;
   font-weight: 700;
   line-height: 30px;
 }
 
 p {
-  color: #000;
+  color: var(--black);
   font-size: 16px;
   font-weight: 400;
   line-height: 20px;
